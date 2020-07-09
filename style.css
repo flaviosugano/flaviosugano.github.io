@@ -1,0 +1,35 @@
+
+body {
+  font-family: 'Noto Sans JP', monospace, sans-serif;
+  background-color: #e0fbfc;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cabeçalho{
+  color: #ee6c4d;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #3d5a80;
+  margin-bottom: 0;
+}
+.indice {
+  text-align: center;
+}
+p, ul, .indice {
+  color: #293241;
+  line-height: 150%;
+  margin-top: 0;
+}
+
+.img-perfil {
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  border-radius: 50%;
+}
+
