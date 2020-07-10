@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Soco a 80km/h: conheça a lagosta-boxeadora</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Noto+Serif&display=swap" rel="stylesheet">
@@ -18,18 +19,34 @@
         margin-top: 0px;
       }
 
-      p {
+      p, nav {
         font-family: 'Noto Sans JP', sans-serif;
         text-indent: 25px;
         margin-top: 0px;
         margin-bottom: 10px;
-
       }
 
-      tr {
+      .citados {
+        margin-bottom: 0px;
+      }
+
+      td, th {
         font-family: 'Noto Sans JP', sans-serif;
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .tabela, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .rodape {
+        background-color: cadetblue;
+        color: white;
+        text-align: center;
       }
 
     </style>
@@ -38,30 +55,31 @@
 
   <body>
     <header class="titulo-principal">
-      <h1>Soco a 80km/h: Conheça a Lagosta-Boxeadora</h1>
+      <h1>Soco a 80km/h: conheça a lagosta-boxeadora</h1>
     
     </header>
     
     <nav> 
-      <br><br>
-      <a href="">Páginal Inicial</a> <a href="">Sobre</a> <a href="">Contato</a> 
+      <br>
+      <a href="">Páginal Inicial</a><br><a href="">Sobre</a><br><a href="">Contato</a> 
       <br><br>
     </nav>
     
     <article>
       <section class="intro">
         <h2>Um crustáceo diferente</h2>
-          <p class="texto-post">A lagosta-boxeadora (<i>Odontodactylus scyllarus</i>) é um crustáceo marinho pertencente à ordem Stomatopoda, do qual fazem parte mais de 450 espécies de estomatopódes, lagostas com apêndices em forma de lâmina ou em forma de bola, como é o caso da lagosta-boxeadora. Esta espécie é um dos maiores e mais coloridos estomatópodes que existem e é nativa na região Indo-Pacífica, desde o Guam até à África oriental. A maioria deles vivem por pelo menos 4 ou 5 anos, alguns podendo viver ainda mais. Se destacam muito pelo seu colorido e singular visual, mas também são conhecidos por terem um dos golpes mais rápidos e violentos do mundo animal.</p><br><br>
+          <p class="texto-post">A lagosta-boxeadora (<em>Odontodactylus scyllarus</em>) é um crustáceo marinho pertencente à ordem Stomatopoda, do qual fazem parte mais de 450 espécies de estomatopódes, lagostas com apêndices em forma de lâmina ou em forma de bola, como é o caso da lagosta-boxeadora. Também conhecida como camarão-louva-a-deus-palhaço (mesmo não sendo um camarão de fato), esta espécie é um dos maiores e mais coloridos estomatópodes que existem. Nativos na região Indo-Pacífica, desde o Guam até à África oriental, a maioria deles vivem por pelo menos 4 ou 5 anos, alguns podendo viver ainda mais. Se destacam muito pelo seu colorido e singular visual, mas também são conhecidos por terem uma visão impressionante e também por terem um dos golpes mais rápidos e violentos do mundo animal.</p><br><br>
 
       </section>
 
 
       <section class="info-gerais">
-        <h3>Classificação Científica</h2>
         <table id="tabela-info-cientificas" class="tabela">
+          <th colspan="2">Classificação Científica</th>
+
           <tr>
             <td>Nome científico</td>
-            <td><i>Odontodactylus scyllarus</i></td>
+            <td><em>Odontodactylus scyllarus</em></td>
           </tr>
 
           <tr>
@@ -101,29 +119,41 @@
 
       <section class="curiosidade-1">
         <h3 id="curiosidade-1">Visão excepcional</h3>
-        <p class="texto-post">A lagosta-boxeadora possui uma estrutura bastante complexa para a visão. Seus olhos contém <strong>16 tipos diferentes de fotorreceptores</strong>, sendo 12 deles para análise de cores. Para efeitos de comparação, o olho humano possui apenas três. Para se ter uma ideia, eles são capazes de ver até quatro cores da luz ultravioleta</p><br><br>
+        <p class="texto-post">A lagosta-boxeadora possui uma estrutura bastante complexa para a visão. Seus olhos contém <strong>16 tipos diferentes de fotorreceptores</strong>, sendo 12 deles para análise de cores. Para efeitos de comparação, o olho humano possui apenas três.</p>
+        <p>Para se ter uma ideia, eles são capazes de ver até quatro cores da luz ultravioleta e também luz polarizada. Essa habilidade é tão fascinante que está ajudando cientistas a criarem uma câmera capaz de ajudar na detecção de tumores cancerígenos.</p><br><br>
 
       </section>
 
       <section class="curiosidade-2">
         <h3 id="curiosidade-2">Uma força equivalente a 2.500x o seu próprio peso em menos de 1s</h3>
-        <p class="texto-post">Isso mesmo que você leu. A lagosta-boxeadora é capaz de gerar uma força equivalente a <em><strong>2.500x o seu peso</strong> em menos de <strong>800 ms</strong></em>! Seu soco chega a atingir 80hm/h, uma aceleração semelhante ao disparo de uma arma calibre .22, exercendo uma pressão de 60kg/cm³.</p>
-        <p class="texto-post">Essa incrível habilidade é possível graças a um sistema de molas, alavancas e travas. Dentro de seu  apêndice, há um sistema de ligação de quatro barras que gerencia a força. Um link empurra o próximo, acumulando energia antes de ser liberada.</p><br><br>
+        <p class="texto-post">Isso mesmo que você leu. A lagosta-boxeadora é capaz de gerar uma força equivalente a <em><strong>2.500x o seu peso</strong> em menos de <strong>800 ms</strong></em>! Seu soco chega a atingir 80km/h, uma aceleração semelhante ao disparo de uma arma calibre .22, exercendo uma pressão de 60kg/cm³.</p>
+        <p class="texto-post">Essa incrível habilidade é possível graças a um sistema de molas, alavancas e travas. Dentro de seu  apêndice, há um sistema de ligação de quatro barras que gerencia a força. Um link empurra o próximo, acumulando energia antes de ser liberada.</p>
 
       </section>
+
+      <aside>
+        <p class="texto-post">Ficou curioso em ver esse incrível animal em ação? <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE">Clique aqui</a> e assista ao vídeo.</p><br><br>
+
+      </aside>
 
       <section class="referencias">
         <h3>Referências:</h3>
-          <p><a href="https://en.wikipedia.org/wiki/Odontodactylus_scyllarus">Artigo Wikipedia sobre <i>Odontodactylus scyllarus</i></a></p>
-          <p><a href="http://reefkeeping.com/issues/2004-03/jf/feature/index.php">Load of Learnin' About Mantis Shrimps by James Fatherree</a></p>
-          <p><a href="https://theoatmeal.com/comics/mantis_shrimp">Why the mantis shrimp is my new favorite animal - The Oatmeal</a></p>
-          <p><a href="http://www.bbc.com/earth/story/20170605-the-most-powerful-punches-and-kicks-of-all-time">BBC - Earth - The most powerful punches and kicks of all time</a></p>
+          <p class="citados"><a href="https://en.wikipedia.org/wiki/Odontodactylus_scyllarus" target="_blank">Wikipedia - artigo sobre <em>Odontodactylus scyllarus</em></a></p>
+          <p class="citados"><a href="http://reefkeeping.com/issues/2004-03/jf/feature/index.php" target="_blank">Reefkeeping - Load of Learnin' About Mantis Shrimps by James Fatherree</a></p>
+          <p class="citados"><a href="https://theoatmeal.com/comics/mantis_shrimp" target="_blank">The Oatmeal - Why the mantis shrimp is my new favorite animal</a></p>
+          <p class="citados"><a href="http://www.bbc.com/earth/story/20170605-the-most-powerful-punches-and-kicks-of-all-time" target="_blank">BBC-Earth - The most powerful punches and kicks of all time</a></p>
+          <p><a href="https://www.npr.org/sections/health-shots/2016/11/15/501443254/watch-mantis-shrimps-incredible-eyesight-yields-clues-for-detecting-cancer" target="_blank">NPR - WATCH: Mantis Shrimp's Incredible Eyesight Yields Clues For Detecting Cancer</a></p>
+          <br><br>
 
       </section>
 
-
-
     </article>
 
+    <footer>
+      <p class="rodape">Conteúdo compilado por Flávio Sugano</p>
+
+    </footer>
+
     </body>
+
 </html>
